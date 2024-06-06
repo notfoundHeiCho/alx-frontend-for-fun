@@ -1,5 +1,5 @@
 /* Hide the default checkbox */
-input [type=checkbox] {
+input[type=checkbox] {
     height: 0;
     width: 0;
     visibility: hidden;
@@ -23,7 +23,7 @@ label {
 .toggle-inner {
     position: absolute;
     top: 50%;
-    left: 25px; /* Adjust as neededn for positioning */
+    left: 25px; /* Adjust as needed for positioning */
     transform: translate(10%);
     font-size: 14px;
     color: white;
@@ -83,6 +83,6 @@ input:checked + label .toggle-inner:after {
     opacity: 1;
 }
 
-input: checked + label .toggle-switch {
+input:checked + label .toggle-switch {
     transform: translateX(110px); /* Adjust as needed to move the switch circle to the right */
 }
