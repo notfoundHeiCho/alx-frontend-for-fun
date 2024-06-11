@@ -1,9 +1,9 @@
-/* Assign: Text color #FF0000 to button tags. When the user hovers over button tags, text color should change to #00FF00 */
+/* Task: Change text color of button on hover */
 
 button {
-	color: #FF0000;
-
-	&:hover {
-		color: #00FF00;
+	color: #FF0000; // Initial button text color
+  
+	&:hover {  // Nested rule for hover state
+	  color: #00FF00; // Text color changes on hover
 	}
-}
+  }
